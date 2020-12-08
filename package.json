@@ -1,9 +1,10 @@
 {
-  "name": "bidnesscard",
-  "version": "1.0.0",
+  "name": "chriswilson477",
+  "version": "1.0.1",
   "description": "My personal NPM Business Card",
-  "main": "index.js",
-  "bin": {"businesscard": "index.js"
+  "main": "./index.js",
+  "bin": {
+    "chriswilson477": "index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

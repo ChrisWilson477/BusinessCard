@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 "use strict";
 
 const boxen = require("boxen");
@@ -40,7 +42,7 @@ const data = {
     work: `${chalk.white("Hack Reactor Student")}`,
     github: chalk.gray("https://github.com/") + chalk.green("ChrisWilson477"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("ChrisWilson477"),
-    npx: chalk.red("npx") + " " + chalk.white("chriswilson477"),
+    npx: chalk.green("npx") + " " + chalk.white("chriswilson477"),
     // blog: chalk.gray("https://dev.to/") + chalk.whiteBright("cdthomp1"),
     // twitter: chalk.gray("https://twitter.com/") + chalk.cyan("DeveloperCam"),
     // web: chalk.cyan("https://cameronthompson.io"),
@@ -76,7 +78,7 @@ const me = boxen(
         float: 'center',
         padding: 1,
         borderStyle: "single",
-        borderColor: "green"
+        borderColor: "cyan"
     }
 );
 
