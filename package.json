@@ -1,6 +1,6 @@
 {
   "name": "chriswilson477",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My personal NPM Business Card",
   "main": "./index.js",
   "bin": {
