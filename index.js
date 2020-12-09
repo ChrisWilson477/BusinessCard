@@ -38,22 +38,17 @@ const questions = [
 
 // Data for the card
 const data = {
-    name: chalk.bold.green("        Chris Wilson"),
+    name: chalk.bold.green("                    Chris Wilson"),
     work: `${chalk.white("Hack Reactor Student")}`,
     github: chalk.gray("https://github.com/") + chalk.green("ChrisWilson477"),
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("ChrisWilson477"),
     npx: chalk.green("npx") + " " + chalk.white("chriswilson477"),
-    // blog: chalk.gray("https://dev.to/") + chalk.whiteBright("cdthomp1"),
-    // twitter: chalk.gray("https://twitter.com/") + chalk.cyan("DeveloperCam"),
-    // web: chalk.cyan("https://cameronthompson.io"),
+
 
     labelWork: chalk.white.bold("       Work:"),
     labelGitHub: chalk.white.bold("     GitHub:"),
     labelLinkedIn: chalk.white.bold("   LinkedIn:"),
     labelCard: chalk.white.bold("       Card:"),
-    // labelWeb: chalk.white.bold("        Web:"),
-    // labelBlog: chalk.white.bold("     Blog:"),
-    // labelTwitter: chalk.white.bold("    Twitter:")
 };
 
 // Build the card
@@ -68,10 +63,8 @@ const me = boxen(
         `${data.labelCard}  ${data.npx}`,
         ``,
         `${chalk.italic(
-            "I'm curious, enthusiastic and student most of the time."
-        )}`,
-        `${chalk.italic("The rest of the time I experiment with my code,")}`,
-        `${chalk.italic("to bring my ideas to life.")}`
+            "        Let me bring your ideas to life"
+        )}`
     ].join("\n"),
     {
         margin: 1,
